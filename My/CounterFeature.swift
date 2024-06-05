@@ -24,10 +24,10 @@ struct CounterFeature {
         Reduce { state, action in
             switch action {
             case .decrementButtonTapped:
-                print("")
+                state.count -= 1
                 return .none
             case .incrementButtonTapped:
-                print("")
+                state.count += 1
                 return .none
             }
         }

@@ -10,12 +10,14 @@ import ComposableArchitecture
 
 @main
 struct MyApp: App {
+    static let store = Store(initialState: CounterFeature.State()) {
+        CounterFeature()
+            ._printChanges()
+    }
     var body: some Scene {
         WindowGroup {
             CounterView(
-                store: Store(initialState: CounterFeature.State(), reducer: {
-                    CounterFeature()
-                })
+                store: MyApp.store
             )
         }
     }
