@@ -16,6 +16,8 @@ final class CounterFeatureTests: XCTestCase {
   func testNumberFact() async {
     let store = TestStore(initialState: CounterFeature.State()) {
       CounterFeature()
+    } withDependencies: { <#inout DependencyValues#> in
+        <#code#>
     }
     
     await store.send(.factButtonTapped) {
