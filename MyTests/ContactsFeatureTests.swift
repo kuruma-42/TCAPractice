@@ -21,7 +21,7 @@ final class ContactsFeatureTests: XCTestCase {
                 )
             )
         }
-        await storeㅎ.send(\.destination.addContact.setName, "Blob Jr.") {
+        await store.send(\.destination.addContact.setName, "Blob Jr.") {
             $0.destination?.addContact?.contact.name = "Blob Jr."
         }
         await store.send(\.destination.addContact.saveButtonTapped)

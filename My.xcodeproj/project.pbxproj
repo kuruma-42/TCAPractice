@@ -27,6 +27,8 @@
 		8DAD949F2C12CFAE002C28DF /* AddContactFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAD949E2C12CFAE002C28DF /* AddContactFeature.swift */; };
 		8DAD94A12C12D523002C28DF /* AddContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAD94A02C12D523002C28DF /* AddContactView.swift */; };
 		8DAD94A32C16726E002C28DF /* ContactsFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAD94A22C16726E002C28DF /* ContactsFeatureTests.swift */; };
+		8DAD94A52C168D12002C28DF /* ContactDetailFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAD94A42C168D12002C28DF /* ContactDetailFeature.swift */; };
+		8DAD94A72C168D9A002C28DF /* ContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAD94A62C168D9A002C28DF /* ContactDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		8DAD949E2C12CFAE002C28DF /* AddContactFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactFeature.swift; sourceTree = "<group>"; };
 		8DAD94A02C12D523002C28DF /* AddContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactView.swift; sourceTree = "<group>"; };
 		8DAD94A22C16726E002C28DF /* ContactsFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsFeatureTests.swift; sourceTree = "<group>"; };
+		8DAD94A42C168D12002C28DF /* ContactDetailFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailFeature.swift; sourceTree = "<group>"; };
+		8DAD94A62C168D9A002C28DF /* ContactDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +137,8 @@
 				8DAD949C2C12BA6A002C28DF /* ContactView.swift */,
 				8DAD949E2C12CFAE002C28DF /* AddContactFeature.swift */,
 				8DAD94A02C12D523002C28DF /* AddContactView.swift */,
+				8DAD94A42C168D12002C28DF /* ContactDetailFeature.swift */,
+				8DAD94A62C168D9A002C28DF /* ContactDetailView.swift */,
 			);
 			path = My;
 			sourceTree = "<group>";
@@ -305,6 +311,8 @@
 				8DAD949F2C12CFAE002C28DF /* AddContactFeature.swift in Sources */,
 				8DAD94882C0F042C002C28DF /* CounterFeature.swift in Sources */,
 				8DAD94932C1059F9002C28DF /* AppView.swift in Sources */,
+				8DAD94A52C168D12002C28DF /* ContactDetailFeature.swift in Sources */,
+				8DAD94A72C168D9A002C28DF /* ContactDetailView.swift in Sources */,
 				8DAD94A12C12D523002C28DF /* AddContactView.swift in Sources */,
 				8DAD94602C0F03BB002C28DF /* ContentView.swift in Sources */,
 				8DAD949D2C12BA6A002C28DF /* ContactView.swift in Sources */,
